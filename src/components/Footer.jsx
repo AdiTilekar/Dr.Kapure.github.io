@@ -66,7 +66,7 @@ export default function Footer() {
             <div>
               <div className="flex items-center gap-3 mb-5">
                 <img 
-                  src="/images/logo.png" 
+                  src={`${import.meta.env.BASE_URL}images/logo.png`}
                   alt="Dr. Kapure's Skin Clinic" 
                   className="h-14 w-auto"
                 />

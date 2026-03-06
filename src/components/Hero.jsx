@@ -85,7 +85,7 @@ export default function Hero() {
           <div className="fade-in-up relative lg:pl-8">
             <div className="relative aspect-[4/5] overflow-hidden rounded-lg shadow-2xl shadow-gold/10">
               <img 
-                src="/images/hero-treatment.jpg" 
+                src={`${import.meta.env.BASE_URL}images/hero-treatment.jpg`}
                 alt="Professional dermatology treatment at Dr.Kapure's Skin Clinic"
                 className="w-full h-full object-cover"
               />

@@ -8,7 +8,7 @@ export default function PreWedding() {
           {/* Image */}
           <div className="relative aspect-[4/3] lg:aspect-auto overflow-hidden rounded-2xl m-4">
             <img 
-              src="/images/prewedding-bride.jpg" 
+              src={`${import.meta.env.BASE_URL}images/prewedding-bride.jpg`}
               alt="Pre-Wedding Bridal Glow Treatment"
               className="w-full h-full object-cover"
             />

@@ -36,7 +36,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
               <img 
-                src="/images/logo.png" 
+                src={`${import.meta.env.BASE_URL}images/logo.png`}
                 alt="Dr. Kapure's Skin Clinic" 
                 className="h-14 w-auto transition-transform duration-300 group-hover:scale-105"
               />
