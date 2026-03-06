@@ -4,14 +4,14 @@ const concerns = [
     desc: "They won't fade on their own. Expert treatment is here.",
     offer: 'Upto 30% Off*',
     imgLabel: 'Acne Treatment',
-    image: '/images/treatment-acne.jpg',
+    image: `${import.meta.env.BASE_URL}images/treatment-acne.jpg`,
   },
   {
     title: 'Worried About Ageing?',
     desc: "Don't let fine lines define you. Reclaim your youth.",
     offer: 'Free Skin Analysis*',
     imgLabel: 'Anti-Ageing',
-    image: '/images/treatment-antiaging.jpg',
+    image: `${import.meta.env.BASE_URL}images/treatment-antiaging.jpg`,
   },
   {
     title: 'Dull, Lifeless Skin?',

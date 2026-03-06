@@ -1,5 +1,5 @@
 const transformations = [
-  { label: 'Acne Scars Removal', category: 'Laser Resurfacing', duration: '4 Sessions', result: 'Visible reduction in 6 weeks', image: '/images/Acene Scars.jpg' },
+  { label: 'Acne Scars Removal', category: 'Laser Resurfacing', duration: '4 Sessions', result: 'Visible reduction in 6 weeks', image: `${import.meta.env.BASE_URL}images/Acene Scars.jpg` },
   { label: 'Pigmentation Correction', category: 'Chemical Peel + Laser', duration: '6 Sessions', result: 'Even skin tone achieved', image: null },
   { label: 'Hair Restoration', category: 'PRP + Growth Factor', duration: '8 Sessions', result: 'Significant regrowth', image: null },
   { label: 'Anti-Aging Treatment', category: 'Dermal Fillers + Botox', duration: '2 Sessions', result: 'Youthful, natural look', image: null },
