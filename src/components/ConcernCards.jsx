@@ -51,7 +51,7 @@ export default function ConcernCards() {
           {concerns.map((item, index) => (
             <div
               key={index}
-              className="stagger-child group grid grid-cols-[1fr_1fr] bg-[#F5E6D8] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-500"
+              className="stagger-child group grid grid-cols-1 sm:grid-cols-[1fr_1fr] bg-[#F5E6D8] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-500"
             >
               {/* Image */}
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl m-3">
