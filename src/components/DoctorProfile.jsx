@@ -19,12 +19,12 @@ export default function DoctorProfile() {
           <div className="fade-in-up relative flex justify-center">
             {/* Decorative outer ring */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-[420px] h-[420px] md:w-[520px] md:h-[520px] rounded-full border border-charcoal/[0.06]" />
+              <div className="w-[280px] h-[280px] sm:w-[340px] sm:h-[340px] md:w-[420px] md:h-[420px] lg:w-[520px] lg:h-[520px] rounded-full border border-charcoal/[0.06]" />
             </div>
 
             {/* Animated Golden Ring */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <svg className="w-[400px] h-[400px] md:w-[500px] md:h-[500px] animate-spin-slow" style={{ animationDuration: '20s' }}>
+              <svg className="w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] animate-spin-slow" style={{ animationDuration: '20s' }}>
                 <defs>
                   <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" style={{ stopColor: '#C9A96E', stopOpacity: 1 }} />
@@ -57,7 +57,7 @@ export default function DoctorProfile() {
               </svg>
             </div>
 
-            <div className="w-[380px] h-[380px] md:w-[480px] md:h-[480px] rounded-full bg-gradient-to-br from-gold/10 via-gold/5 to-transparent flex items-center justify-center overflow-hidden relative ring-4 ring-gold/10 shadow-2xl shadow-gold/10">
+            <div className="w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] md:w-[380px] md:h-[380px] lg:w-[480px] lg:h-[480px] rounded-full bg-gradient-to-br from-gold/10 via-gold/5 to-transparent flex items-center justify-center overflow-hidden relative ring-4 ring-gold/10 shadow-2xl shadow-gold/10">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(201,169,110,0.15)_0%,transparent_70%)]" />
               <div className="text-center text-charcoal/20 relative z-10">
                 <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gold/5 border-2 border-gold/15 flex items-center justify-center">

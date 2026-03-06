@@ -54,7 +54,7 @@ export default function ConcernCards() {
               className="stagger-child group grid grid-cols-1 sm:grid-cols-[1fr_1fr] bg-[#F5E6D8] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-500"
             >
               {/* Image */}
-              <div className="relative aspect-[4/3] overflow-hidden rounded-xl m-3">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-xl m-3 sm:m-3">
                 {item.image ? (
                   <img 
                     src={item.image} 
@@ -75,7 +75,7 @@ export default function ConcernCards() {
               </div>
 
               {/* Content */}
-              <div className="flex flex-col justify-center pr-6 py-6">
+              <div className="flex flex-col justify-center px-6 py-6 sm:pr-6 sm:pl-4">
                 <h3 className="font-sans text-base md:text-lg font-bold text-charcoal mb-2 uppercase leading-tight">
                   {item.title}
                 </h3>

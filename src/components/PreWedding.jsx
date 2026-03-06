@@ -6,7 +6,7 @@ export default function PreWedding() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="fade-in-up grid lg:grid-cols-2 bg-white rounded-3xl overflow-hidden shadow-xl shadow-black/[0.08] border border-gray-100/40">
           {/* Image */}
-          <div className="relative aspect-[4/3] lg:aspect-auto overflow-hidden rounded-2xl m-4">
+          <div className="relative aspect-[4/3] lg:aspect-auto overflow-hidden lg:rounded-2xl m-2 lg:m-4">
             <img 
               src={`${import.meta.env.BASE_URL}images/prewedding-bride.jpg`}
               alt="Pre-Wedding Bridal Glow Treatment"
