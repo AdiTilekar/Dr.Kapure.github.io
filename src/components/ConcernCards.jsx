@@ -18,14 +18,14 @@ const concerns = [
     desc: 'Stop hiding behind makeup. Get your natural glow back.',
     offer: 'Special Peel Packages*',
     imgLabel: 'Skin Glow',
-    image: null,
+    image: `${import.meta.env.BASE_URL}images/dull-skin.jpg`,
   },
   {
     title: 'Hairfall Anxiety?',
     desc: 'Watching your hair thin daily? We can stop it.',
     offer: 'Get Flat 20% Off*',
     imgLabel: 'Hair Treatment',
-    image: null,
+    image: `${import.meta.env.BASE_URL}images/Hairfall-anxiety.jpg`,
   },
 ];
 
