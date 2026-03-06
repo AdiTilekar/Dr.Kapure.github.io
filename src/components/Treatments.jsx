@@ -35,11 +35,11 @@ export default function Treatments() {
           </div>
 
           {/* Bento Grid */}
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 fade-in-up" style={{ gridAutoRows: 'minmax(200px, auto)' }}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 fade-in-up" style={{ gridAutoRows: 'minmax(200px, auto)' }}>
             {categories.map((cat, i) => (
               <div
                 key={i}
-                className={`stagger-child group relative bg-gradient-to-br from-charcoal/[0.04] to-[#E8D5C4]/60 rounded-2xl overflow-hidden flex items-end p-6 hover:shadow-xl transition-shadow duration-500 ${cat.span} ${i === 1 ? 'aspect-auto min-h-[420px]' : 'aspect-[4/3]'}`}
+                className={`stagger-child group relative bg-gradient-to-br from-charcoal/[0.04] to-[#E8D5C4]/60 rounded-2xl overflow-hidden flex items-end p-6 hover:shadow-xl transition-shadow duration-500 ${i === 1 ? 'sm:row-span-2' : ''} ${i === 1 ? 'aspect-auto min-h-[300px] sm:min-h-[420px]' : 'aspect-[4/3]'}`}
               >
                 {/* Placeholder visual */}
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -95,11 +95,11 @@ export default function Treatments() {
           </div>
 
           {/* 3-Column Cards */}
-          <div className="grid md:grid-cols-3 gap-6 fade-in-up">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 fade-in-up">
             {signature.map((item, i) => (
               <div key={i} className="stagger-child group">
                 {/* Tall Image Placeholder */}
-                <div className="aspect-[3/4] bg-gradient-to-br from-gold/[0.05] to-[#E8D5C4]/50 rounded-2xl overflow-hidden flex items-center justify-center mb-0 relative">
+                <div className="aspect-[3/4] bg-gradient-to-br from-gold/[0.05] to-[#E8D5C4]/50 rounded-2xl overflow-hidden flex items-center justify-center mb-0 relative shadow-sm">
                   <div className="text-center text-charcoal/15">
                     <div className="w-14 h-14 mx-auto mb-2 border border-dashed border-charcoal/10 rounded-full flex items-center justify-center">
                       <span className="text-xl">{item.icon}</span>
@@ -108,7 +108,7 @@ export default function Treatments() {
                   </div>
                 </div>
                 {/* Bottom label bar */}
-                <div className="bg-off-white border border-gray-200/60 rounded-b-2xl -mt-4 relative z-10 px-5 py-4 flex items-center gap-3">
+                <div className="bg-off-white border border-gray-200/60 rounded-b-2xl -mt-4 relative z-10 px-4 sm:px-5 py-3 sm:py-4 flex items-center gap-3">
                   <div className="w-8 h-8 rounded-lg bg-gold/[0.08] flex items-center justify-center flex-shrink-0">
                     <span className="text-gold text-sm">{item.icon}</span>
                   </div>
