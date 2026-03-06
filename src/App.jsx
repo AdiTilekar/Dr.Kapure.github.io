@@ -10,7 +10,7 @@ function App() {
   useScrollAnimation();
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Dr.Kapure.github.io">
       <div className="min-h-screen overflow-x-hidden">
         <Navbar />
         <Routes>
