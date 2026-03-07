@@ -77,7 +77,7 @@ export default function EventBanner() {
               <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-2 leading-tight drop-shadow-lg">
                 {EVENT_CONFIG.title}
               </h2>
-              <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white/90 mb-4">
+              <p className="text-lg sm:text-xl md:text-2xl font-bold text-white/95 mb-4 leading-relaxed font-marathi">
                 {EVENT_CONFIG.subtitle}
               </p>
             </div>
@@ -99,7 +99,7 @@ export default function EventBanner() {
                 <div>
                   <p className="text-xs text-charcoal/50 uppercase tracking-wide mb-1 font-semibold">Date & Time</p>
                   <p className="text-sm font-bold text-charcoal mb-1">{EVENT_CONFIG.date}</p>
-                  <p className="text-xs text-charcoal/60">{EVENT_CONFIG.dateMarathi}</p>
+                  <p className="text-sm font-semibold text-charcoal/70 leading-relaxed font-marathi">{EVENT_CONFIG.dateMarathi}</p>
                 </div>
               </div>
 
@@ -156,7 +156,7 @@ export default function EventBanner() {
               </a>
             </div>
 
-            <p className="text-xs text-center text-charcoal/40 mt-6 italic">
+            <p className="text-xs text-center text-charcoal/40 mt-6 italic font-medium leading-relaxed font-marathi">
               *शिबिराचा लाभ घेण्यासाठी आजच संपर्क करा
             </p>
           </div>
