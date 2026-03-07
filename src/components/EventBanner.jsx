@@ -21,7 +21,7 @@ export default function EventBanner() {
   if (!SHOW_EVENT_BANNER || !isVisible) return null;
 
   return (
-    <section className="relative bg-gradient-to-r from-[#D4A5A5] via-[#C9A96E] to-[#D4A5A5] overflow-hidden">
+    <section className="relative bg-gradient-to-r from-[#D4A5A5] via-[#C9A96E] to-[#D4A5A5] overflow-hidden mt-[88px]">
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(255,255,255,0.8)_0%,transparent_50%)] animate-pulse" style={{ animationDuration: '3s' }} />
