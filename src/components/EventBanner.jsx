@@ -77,7 +77,7 @@ export default function EventBanner() {
               <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-2 leading-tight drop-shadow-lg">
                 {EVENT_CONFIG.title}
               </h2>
-              <p className="text-lg sm:text-xl md:text-2xl font-bold text-white/95 mb-4 leading-relaxed font-marathi">
+              <p className="text-xl sm:text-2xl md:text-3xl font-extrabold text-white mb-4 leading-relaxed font-marathi drop-shadow-md">
                 {EVENT_CONFIG.subtitle}
               </p>
             </div>
@@ -92,24 +92,14 @@ export default function EventBanner() {
 
             {/* Event Details Grid */}
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
-              <div className="flex items-start gap-3 bg-gradient-to-br from-[#D4A5A5]/10 to-[#C9A96E]/10 rounded-2xl p-5 border border-gold/20">
+              <div className="flex items-start gap-3 bg-gradient-to-br from-[#D4A5A5]/10 to-[#C9A96E]/10 rounded-2xl p-5 border border-gold/20 sm:col-span-2">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#D4A5A5] to-[#C9A96E] flex items-center justify-center flex-shrink-0 shadow-lg">
                   <Calendar size={22} className="text-white" />
                 </div>
                 <div>
                   <p className="text-xs text-charcoal/50 uppercase tracking-wide mb-1 font-semibold">Date & Time</p>
-                  <p className="text-sm font-bold text-charcoal mb-1">{EVENT_CONFIG.date}</p>
-                  <p className="text-sm font-semibold text-charcoal/70 leading-relaxed font-marathi">{EVENT_CONFIG.dateMarathi}</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 bg-gradient-to-br from-[#D4A5A5]/10 to-[#C9A96E]/10 rounded-2xl p-5 border border-gold/20">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#D4A5A5] to-[#C9A96E] flex items-center justify-center flex-shrink-0 shadow-lg">
-                  <Clock size={22} className="text-white" />
-                </div>
-                <div>
-                  <p className="text-xs text-charcoal/50 uppercase tracking-wide mb-1 font-semibold">Timing</p>
-                  <p className="text-sm font-bold text-charcoal">{EVENT_CONFIG.time}</p>
+                  <p className="text-sm font-bold text-charcoal mb-2">{EVENT_CONFIG.date}</p>
+                  <p className="text-base font-bold text-charcoal leading-relaxed font-marathi">{EVENT_CONFIG.dateMarathi}</p>
                 </div>
               </div>
 
@@ -156,7 +146,7 @@ export default function EventBanner() {
               </a>
             </div>
 
-            <p className="text-xs text-center text-charcoal/40 mt-6 italic font-medium leading-relaxed font-marathi">
+            <p className="text-sm text-center text-charcoal/60 mt-6 font-semibold leading-relaxed font-marathi">
               *शिबिराचा लाभ घेण्यासाठी आजच संपर्क करा
             </p>
           </div>
