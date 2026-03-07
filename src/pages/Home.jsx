@@ -1,5 +1,4 @@
 import Hero from '../components/Hero';
-import EventBanner from '../components/EventBanner';
 import TrustMarquee from '../components/TrustMarquee';
 import ConcernCards from '../components/ConcernCards';
 import WhyUs from '../components/WhyUs';
@@ -13,7 +12,6 @@ import FAQ from '../components/FAQ';
 export default function Home() {
   return (
     <>
-      <EventBanner />
       <Hero />
       <PreWedding />
       <TrustMarquee />

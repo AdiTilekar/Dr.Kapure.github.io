@@ -3,6 +3,7 @@ import useScrollAnimation from './hooks/useScrollAnimation';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
+import EventBanner from './components/EventBanner';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 
@@ -19,6 +20,7 @@ function App() {
         </Routes>
         <Footer />
         <FloatingButtons />
+        <EventBanner />
       </div>
     </BrowserRouter>
   );
